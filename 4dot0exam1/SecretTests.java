@@ -21,8 +21,10 @@ public class SecretTests {
     public void testSubtract() {
         int a = 2;
         int b = 2;
-        int expected = 3;
+        int expected = 0;
         int actual = Calculator.subtract(a, b);
+
+        Assert.assertEquals(actual, expected);
     }
 
 }
